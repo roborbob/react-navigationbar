@@ -1,5 +1,9 @@
 {
   "name": "react-navigationbar",
+  "description": "A react based navigation bar with burger menu animation",
+  "keywords": [
+    "react", "svg", "animation", "navigation"
+  ],
   "version": "0.1.0",
   "private": true,
   "dependencies": {
