@@ -1,12 +1,15 @@
+$baseColor:rgb(0, 9, 129);
+
 .navigation {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background: lightblue;
+    top: 0;
     width: 100%;
     height: 80px;
+    z-index: 1000;
     .search {
         position: relative;
         width: 30px;
@@ -15,20 +18,20 @@
         svg {
             width: 100%;
             height: 100%;
-            fill: red;
+            fill: $baseColor;
         }
     }
     .app-title {
-        border: 3px solid red;
+        border: 3px solid $baseColor;
         border-radius: 5px;
         padding: 10px;
-        background: red;
+        // background: $baseColor;
         h1 {
             font-family: 'helvetica';
             font-size: 40px;
             font-weight: 900;
             line-height: 1;
-            color: white;
+            color: rgb(0, 9, 129);
             margin: 0;
         }
     }
@@ -43,11 +46,32 @@
         transform-origin: 15px 15px;
         div {
             position: absolute;
-            background: red;
+            background: $baseColor;
             height: 6px;
             width: 30px;
             border-radius: 3px;
         }
-
+    }
+    
+}
+.menu {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            position:relative;
+            padding: 15px;
+            font-family: helvetica;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            background: $baseColor;
+            list-style: none;
+            border-bottom: 1px solid white;
+        }
     }
 }
