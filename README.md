@@ -1,8 +1,10 @@
 Description
-    Using react-spring to animate the burger menu and the drop down navigation list. 
+
+Using react-spring to animate the burger menu and the drop down navigation list. 
 
 Objective 
-    A simple proof of concept to implement react-spring animation into a react navigation bar. 
+
+A simple proof of concept to implement react-spring animation into a react navigation bar. 
 
 
 ## Available Scripts
