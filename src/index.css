@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient( lightblue, rgb(0, 9, 129));
+  background: linear-gradient( rgb(154, 218, 240), rgb(0, 139, 46));
   height: 100vh;
 }
 

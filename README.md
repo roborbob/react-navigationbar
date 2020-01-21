@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
+    Using react-spring to animate the burger menu and the drop down navigation list. 
+
+Objective 
+    A simple proof of concept to implement react-spring animation into a react navigation bar. 
+
 
 ## Available Scripts
 

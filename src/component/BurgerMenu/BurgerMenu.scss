@@ -1,0 +1,19 @@
+$baseColor: black;
+
+.burger-menu {
+    position: relative;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transform-origin: 15px 15px;
+    div {
+        position: absolute;
+        background: $baseColor;
+        height: 6px;
+        width: 30px;
+        border-radius: 3px;
+    }
+}
